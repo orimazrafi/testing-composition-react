@@ -32,7 +32,23 @@
   from {
     transform: rotate(0deg);
   }
+
   to {
     transform: rotate(360deg);
   }
+}
+
+.box {
+  margin: auto;
+  height: 200px;
+  width: 200px;
+  position: relative;
+  top: 200px;
+  background: red;
+  transition-property: background;
+  transition-duration: 2s;
+}
+
+.box:hover {
+  background: blue;
 }

@@ -1,0 +1,30 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`toggle snapshoot the snapshoot should not be change 1`] = `
+<div>
+  <div>
+    <button
+      data-test="toggle-btn"
+      onClick={[Function]}
+    >
+      Toggle
+    </button>
+    <div
+      data-test="toggled-element"
+    >
+      Text To Show!
+    </div>
+    <h1
+      data-test="number"
+    >
+      0
+    </h1>
+    <button
+      data-test="increment-btn"
+      onClick={[Function]}
+    >
+      increment
+    </button>
+  </div>
+</div>
+`;
